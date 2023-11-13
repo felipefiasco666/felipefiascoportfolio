@@ -1,0 +1,192 @@
+body{
+    background:#081b29;
+    color: deepskyblue;
+
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 50%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 25px;
+    color: cornflowerblue;
+    text-decoration: solid;
+}
+.navbar a{
+    font-size: 18px;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    background-color: turquoise;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content{
+    background-color: transparent;
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.home-content p{
+    font-size: 16px;
+}
+.class{
+    font-size: 17px;
+}
+.kuy{
+    list-style-type: none;
+    background: transparent;
+    border: 2px solid ;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 20px;
+    margin-bottom: 1rem;
+}
+.kuy2{
+    list-style-type: none;
+    background: transparent;
+    border: 2px solid ;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+.kuy3{
+    list-style-type: none;
+    background: transparent;
+    border: 2px solid ;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+.card{
+    border-radius: 25px;
+    background-color: aliceblue;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.card2{
+    border-radius: 25px;
+    background-color: aliceblue;
+    color: darkblue;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+.home2{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    max-width: 600px;
+}
+.home-content2{
+    background-color: transparent;
+
+}
+.header2{
+    top: 0;
+    left: 0;
+    width: 50%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+h5{
+    font-size: 35px;
+    font-weight: 600;
+    color: teal;
+}
+.home3{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    max-width: 600px;
+    
+}
+.home-content3{
+    background-color: transparent;
+
+}
+.link{
+    display: inline-flex;
+    width: 230px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 19px;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+
+}
+.link:hover{
+    background-color: purple;
+}
+.link2{
+    display: inline-flex;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+
+}
+.link2:hover{
+    background-color: purple;
+}
