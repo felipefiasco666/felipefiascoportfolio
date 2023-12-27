@@ -19,17 +19,29 @@ body{
     color: cornflowerblue;
     text-decoration: solid;
 }
+
 .navbar a{
     font-size: 18px;
-    color: cornflowerblue;
+    color: black;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+    display: flex;
+    border-radius: 25px;
+    background-color: purple;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin: 0;
+    justify-content: center;
+
 }
 .navbar a:hover{
     background-color: turquoise;
 }
+
 .home{
     height: 100vh;
     display: flex;
@@ -67,6 +79,8 @@ body{
     width: 90px;
     height: 20px;
     margin-bottom: 1rem;
+    overflow: hidden;
+    text-align: center;
 }
 .kuy2{
     list-style-type: none;
@@ -80,6 +94,8 @@ body{
     width: 140px;
     height: 30px;
     margin-bottom: 1rem;
+    overflow: hidden;
+    text-align: center;
 }
 .kuy3{
     list-style-type: none;
@@ -93,6 +109,8 @@ body{
     width: 160px;
     height: 30px;
     margin-bottom: 1rem;
+    overflow: hidden;
+    text-align: center;
 }
 .card{
     border-radius: 25px;
@@ -189,4 +207,31 @@ h5{
 }
 .link2:hover{
     background-color: purple;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+.navlinks > li+li{
+    margin-left: 0.8em;
+}
+.skills{
+    display: flex;
+    border-radius: 25px;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin: 0;
+    justify-content: center;
+}
+@media (max-width:30em){
+    .navbar{
+        display: block;
+        
+    }
 }
